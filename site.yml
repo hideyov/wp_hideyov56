@@ -15,7 +15,7 @@ cpus: 1
 #
 # Network Settings
 #
-hostname: vccw.test
+hostname: hideyov56
 ip: 192.168.33.10
 
 #
@@ -23,14 +23,14 @@ ip: 192.168.33.10
 # Manage additional entries in the /etc/hosts file using vagrant-hostsupdater
 #
 hostname_aliases:
-  - www.vccw.test
+  - www.hideyov56
 #  - some.subdomain.vccw.test
 
 #
 # WordPress Settings
 #
 version: latest
-lang: en_US
+lang: ja
 title: Welcome to the VCCW
 multisite: false
 rewrite_structure: /archives/%post_id%
